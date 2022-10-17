@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;selenium.Alert&apos; to &apos;Frame&apos;&#x0D;&#x0A;- Original project: &apos;Demo&apos;&#x0D;&#x0A;- Original element: &apos;selenium.Alert&apos;&#x0D;&#x0A;- Renamed element: &apos;selenium.Frame&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Alert&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;selenium{Alert.java[Alert" matchStrategy="1" name="Frame" qualified="false" references="true" similarDeclarations="false" stamp="1647686383285" textual="false" version="1.0"/>
+</session>

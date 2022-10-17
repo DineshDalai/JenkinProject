@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\LENOVO\eclipse-workspace\Interview\src\pratice\StringReverse1.java"/>
+			<item value="C:\Users\LENOVO\eclipse-workspace\FreeCrmBDDFrameworks\src\main\java\Runner\TestRunner.java"/>
+			<item value="C:\Users\LENOVO\eclipse-workspace\FreeCrmBDDFrameworks"/>
+			<item value="C:\Users\LENOVO\eclipse-workspace\FreeCrmBDDFramework\pom.xml"/>
+			<item value="C:\Users\LENOVO\eclipse-workspace\SeleniumMethods\src\basicCodes\CommonFunctions.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="RestAssuredApiTesting.RestAssuredApiTesting"/>
+			<item value="BDDFrame.BDDFrame"/>
+			<item value="BDDFramework.BDDFramework"/>
+			<item value="BDDFrameworks.BDDFrameworks"/>
+			<item value="FreeCrmBDDFrameworks.FreeCrmBDDFrameworks"/>
+			<item value="FreeCrmBDDFramework.FreeCrmBDDFramework"/>
+		</list>
+		<list key="groupId">
+			<item value="RestAssuredApiTesting"/>
+			<item value="BDDFrame"/>
+			<item value="BDDFramework"/>
+			<item value="BDDFrameworks"/>
+			<item value="FreeCrmBDDFrameworks"/>
+			<item value="FreeCrmBDDFramework"/>
+		</list>
+		<list key="artifactId">
+			<item value="RestAssuredApiTesting"/>
+			<item value="BDDFrame"/>
+			<item value="BDDFramework"/>
+			<item value="BDDFrameworks"/>
+			<item value="FreeCrmBDDFrameworks"/>
+			<item value="FreeCrmBDDFramework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

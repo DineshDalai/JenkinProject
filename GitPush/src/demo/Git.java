@@ -6,6 +6,7 @@ public class Git {
 		// TODO Auto-generated method stub
 
 		System.out.println("Dinesh");
+		System.out.println("Dinesh Kumar");
 	}
 
 }

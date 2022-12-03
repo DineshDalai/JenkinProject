@@ -49,8 +49,8 @@ WebDriver driver;
 	 * driver.findElement(By.name("username")).sendKeys("Admin123");
 	 */
 	
-	for(String winid:windowidList) {
-		
+	//for(String winid:WindowIds) {
+		for(String winid:windowidList) {
 		String Title =driver.switchTo().window(winid).getTitle();
 		System.out.println(Title);
 		

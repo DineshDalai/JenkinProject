@@ -12,6 +12,7 @@
 		<item value="bitbucket.org"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/DineshKumarDalai/BDDCucumber.git"/>
 		<item value="https://github.com/DineshKumarDalai/SeleniumCommonMethods.git"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">

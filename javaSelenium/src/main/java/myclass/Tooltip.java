@@ -18,8 +18,11 @@ public class Tooltip {
 		
 WebDriver driver;
 
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+ChromeOptions option = new ChromeOptions();
+option.addArguments("--remote-allow-origins=*");
+
+WebDriverManager.chromedriver().setup();
+driver = new ChromeDriver(option);
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
 		
 		driver.manage().window().maximize();

@@ -19,8 +19,11 @@ public class Selectdate {
 		WebDriver driver;
 
 		
+		ChromeOptions option = new ChromeOptions();
+        option.addArguments("--remote-allow-origins=*");
+
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(option);
 		
 		driver.get("https://www.dummyticket.com/dummy-ticket-for-visa-application/");
 		

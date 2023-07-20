@@ -11,9 +11,9 @@ public class RotateArray {
 		
 		  for(int i=0;i<p;i++) {
 		  
-		int a=Array[Array.length-1];//18
-		for(int k=Array.length-1;k>0;k--) {
-			Array[k] = Array[k-1];//5---4,4--35,3---11,2--54,1---21
+		int a=Array[Array.length-1];//18//4
+		for(int k=Array.length-1;k>0;k--) {//{18,21,54,11,35,4},{35,11,54,21,18}
+		Array[k] = Array[k-1];//5---4,4--35,3---11,2--54,1---21   //5---35,4--11,3---54,2--21,1---18
 		}//18,21,54,11,35,4
 		Array[0] = a;//18
 		

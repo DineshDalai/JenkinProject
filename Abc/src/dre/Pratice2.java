@@ -1,33 +1,35 @@
 package dre;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Set;
 
 public class Pratice2 {
 
 	public static void main(String[] args) {
 		
-		int a[] = {21,54,11,35,4,18};
-		//4,18,21,54,11,35
-		for(int i=0;i<2;i++){
-			
-			int b=a[a.length-1];//18,4
-			System.out.println(b);
-			System.out.println("new");
-			//length=6
-			for(int j=a.length-1;j>0;j--) {//5
-				a[j] = a[j-1];//5--4,4--35,3---11,2---54,1--21      5--35,4--11,3--54,2--21,1---18
-				//System.out.print(a[a.length-1]+" ");
+		String s="Dinesh Kumar Dalai";
+		
+		char  c[] = s.toCharArray();
+		
+	
+			Set<Character> obj = new HashSet<Character>();
+		
+			StringBuffer bf = new StringBuffer();
+			for(int i=0;i<s.length();i++) {
+				char c1 = s.charAt(i);
+			if(!obj.contains(c1)) {
+				obj.add(c1);
+				bf.append(c1);
 			}
-			a[0] = b;//18,21,54,11,35,4  4,18,21,54,11,35
 			
 		}
-		
-		  for(int k=0;k<a.length;k++) {
-			  System.out.print(a[k]+" "); }
-		 
+			System.out.println(bf);
+			System.out.println(obj);
 	}
+	
 	}
 
 

@@ -8,6 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -20,15 +21,16 @@ public class ExplicityWaitExample {
 WebDriver driver;
 		
 		
-	    WebDriverManager.chromedriver().setup();
-	    
-	    driver = new ChromeDriver();
-	    
-	    driver.manage().window().maximize();
-	    
-	    driver.get("https://www.google.com/");
-	    
-	    WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+ChromeOptions option = new ChromeOptions();
+option.addArguments("--remote-allow-origins=*");
+
+WebDriverManager.chromedriver().setup();
+ driver = new ChromeDriver(option);
+
+
+driver.get("https://www.google.com/");
+driver.manage().window().maximize();
+	    WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
 	    
 	    driver.findElement(By.name("q")).sendKeys("WebDriver");
 	    driver.findElement(By.name("q")).sendKeys(Keys.ENTER);

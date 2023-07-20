@@ -30,28 +30,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="RestAssuredApiTesting.RestAssuredApiTesting"/>
-			<item value="BDDFrame.BDDFrame"/>
-			<item value="BDDFramework.BDDFramework"/>
-			<item value="BDDFrameworks.BDDFrameworks"/>
-			<item value="FreeCrmBDDFrameworks.FreeCrmBDDFrameworks"/>
-			<item value="FreeCrmBDDFramework.FreeCrmBDDFramework"/>
 		</list>
 		<list key="groupId">
-			<item value="RestAssuredApiTesting"/>
-			<item value="BDDFrame"/>
-			<item value="BDDFramework"/>
-			<item value="BDDFrameworks"/>
-			<item value="FreeCrmBDDFrameworks"/>
-			<item value="FreeCrmBDDFramework"/>
 		</list>
 		<list key="artifactId">
-			<item value="RestAssuredApiTesting"/>
-			<item value="BDDFrame"/>
-			<item value="BDDFramework"/>
-			<item value="BDDFrameworks"/>
-			<item value="FreeCrmBDDFrameworks"/>
-			<item value="FreeCrmBDDFramework"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -67,10 +49,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="ApiPetStoreAutomation"/>
+			<item value="ApiTesting"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ApiPetStoreAutomation"/>
+			<item value="ApiTesting"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

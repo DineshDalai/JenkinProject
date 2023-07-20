@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -15,8 +16,11 @@ public class HandleLinks {
 	public static void main(String[] args) throws InterruptedException {
 
   WebDriver driver;
+  ChromeOptions option = new ChromeOptions();
+  option.addArguments("--remote-allow-origins=*");
+  
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(option);
 		
    driver.manage().window().maximize();
    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

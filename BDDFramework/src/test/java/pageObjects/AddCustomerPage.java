@@ -52,6 +52,17 @@ public class AddCustomerPage {
 		By Customersavebtn = By.xpath("//button[@name='save']");
 		By Customersuccessmsg = By.xpath("//div[@class='alert alert-success alert-dismissable']");
 		
+		
+		//Search Customer by Email
+		
+		By SearchcustomerEmail  = By.id("SearchEmail");
+		By SearchcustomerFistName  = By.id("SearchFirstName");
+		By SearchcustomerLastName  = By.id("SearchLastName");
+		By SearchButton = By.id("search-customers");
+		By SearchEmailTable = By.xpath("//tbody//tr/td[contains(text(),'.com')]");
+		
+		
+		
 		public void AddNewCustomer() {
 			ldriver.findElement(Addnew).click();
 		}
@@ -133,4 +144,5 @@ public void EnterCustomerVendor() {
 	sel.selectByIndex(1);
 	
 }
+
 }

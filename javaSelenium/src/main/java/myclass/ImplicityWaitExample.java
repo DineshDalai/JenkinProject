@@ -7,6 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -19,9 +20,11 @@ public class ImplicityWaitExample {
 WebDriver driver;
 		
 		
-	    WebDriverManager.chromedriver().setup();
-	    
-	    driver = new ChromeDriver();
+           ChromeOptions option = new ChromeOptions();
+          option.addArguments("--remote-allow-origins=*");
+
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver(option);
 	    
 	    driver.manage().window().maximize();
 	    

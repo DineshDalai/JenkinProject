@@ -21,8 +21,11 @@ public class SelectDatePicker {
 		option.addArguments("--disable notifications--");
 		
 		
+		ChromeOptions option1 = new ChromeOptions();
+        option1.addArguments("--remote-allow-origins=*");
+
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(option1);
 		
 		driver.get("https://www.easemytrip.com/flights.html");
 		

@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -15,8 +16,11 @@ public class KeyboardActions {
     WebDriver driver;
 
 		
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+    ChromeOptions option = new ChromeOptions();
+    option.addArguments("--remote-allow-origins=*");
+
+	WebDriverManager.chromedriver().setup();
+	driver = new ChromeDriver(option);
 		
 		driver.get("https://the-internet.herokuapp.com/key_presses");
 		

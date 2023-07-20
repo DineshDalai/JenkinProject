@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -16,8 +17,11 @@ public class MouseDragAndDrop {
 WebDriver driver;
 
 		
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+ChromeOptions option = new ChromeOptions();
+option.addArguments("--remote-allow-origins=*");
+
+WebDriverManager.chromedriver().setup();
+driver = new ChromeDriver(option);
 		
 		driver.get("http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
 		

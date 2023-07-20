@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -15,8 +16,11 @@ public class MouseRightclickAction {
 WebDriver driver;
 
 		
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+ChromeOptions option = new ChromeOptions();
+option.addArguments("--remote-allow-origins=*");
+
+WebDriverManager.chromedriver().setup();
+driver = new ChromeDriver(option);
 		
 		driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html");
 		

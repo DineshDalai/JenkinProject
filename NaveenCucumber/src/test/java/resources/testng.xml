@@ -1,0 +1,9 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Open Cart Parallel suite" verbose="2" parallel="classes" thread-count="5">
+  <test name="Login Page Test">
+      <classes>
+      <class name="testRunner.TestRunner"/>
+      </classes>
+  </test> <!-- Test -->
+</suite>

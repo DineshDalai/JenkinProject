@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -17,10 +18,13 @@ public class AutoSuggestDropdown {
 
 
 WebDriver driver;
+
+ChromeOptions option = new ChromeOptions();
+option.addArguments("--remote-allow-origins=*");
 		
 		WebDriverManager.chromedriver().setup();
 		
-		driver =new ChromeDriver();
+		driver =new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 		//driver.manage().timeouts().implicitlyWait(70, TimeUnit.SECONDS);

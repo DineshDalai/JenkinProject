@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="1"/>
 	<list key="CommitDialog.authorValues">
 		<item value="LENOVO &lt;LENOVO@DESKTOP-H9INCBM&gt;"/>
 	</list>
@@ -7,11 +8,12 @@
 		<item value="LENOVO &lt;LENOVO@DESKTOP-H9INCBM&gt;"/>
 	</list>
 	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
 		<item value="git.eclipse.org"/>
 		<item value="github.com"/>
-		<item value="bitbucket.org"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/naveenanimation20/LatestCucumber6WithPOM.git"/>
 		<item value="https://github.com/DineshKumarDalai/BDDCucumber.git"/>
 		<item value="https://github.com/DineshKumarDalai/SeleniumCommonMethods.git"/>
 	</list>
@@ -22,5 +24,10 @@
 		<item key="sortItemState" value="false"/>
 	</section>
 	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="GitCommitSearchPage">
+		<item key="HISTORY_SIZE" value="0"/>
+	</section>
+	<section name="GitImportWizard">
 	</section>
 </section>

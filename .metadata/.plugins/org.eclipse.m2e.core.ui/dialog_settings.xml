@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Workspace\eclipse-workspace\NaaveenPlayWrightSeries\pom.xml"/>
+			<item value="D:\Workspace\eclipse-workspace"/>
 			<item value="C:\Users\LENOVO\eclipse-workspace\Interview\src\pratice\StringReverse1.java"/>
 			<item value="C:\Users\LENOVO\eclipse-workspace\FreeCrmBDDFrameworks\src\main\java\Runner\TestRunner.java"/>
 			<item value="C:\Users\LENOVO\eclipse-workspace\FreeCrmBDDFrameworks"/>
@@ -30,10 +32,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="PlayWrightSeries.PlayWrightSeries"/>
 		</list>
 		<list key="groupId">
+			<item value="PlayWrightSeries"/>
 		</list>
 		<list key="artifactId">
+			<item value="PlayWrightSeries"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -49,14 +54,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="ApiPetStoreAutomation"/>
-			<item value="ApiTesting"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="ApiPetStoreAutomation"/>
-			<item value="ApiTesting"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -73,5 +74,18 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Abcc"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Abcc"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

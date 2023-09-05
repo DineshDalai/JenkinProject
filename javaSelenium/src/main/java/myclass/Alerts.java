@@ -21,9 +21,10 @@ public class Alerts {
 		
 		WebDriverManager.chromedriver().setup();
 		
-		driver =new ChromeDriver(option);
+		 driver =new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+		
 	
 		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 	

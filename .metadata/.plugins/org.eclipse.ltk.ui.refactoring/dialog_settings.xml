@@ -14,5 +14,10 @@
 		<item key="height" value="509"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="moveWizard.updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
+	</section>
+	<section name="ShowRefactoringHistoryWizard">
+		<item key="org.eclipse.ltk.ui.refactoring.sortRefactorings" value="true"/>
 	</section>
 </section>

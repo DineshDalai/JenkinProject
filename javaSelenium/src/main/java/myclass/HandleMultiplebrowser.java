@@ -2,6 +2,7 @@ package myclass;
 
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -50,6 +51,7 @@ option.addArguments("--remote-allow-origins=*");
 	 * driver.switchTo().window(parentwindow);
 	 * driver.findElement(By.name("username")).sendKeys("Admin123");
 	 */
+	
 	
 	//for(String winid:WindowIds) {
 		for(String winid:windowidList) {

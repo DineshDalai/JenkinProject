@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="cucumber.eclipse.launching.localCucumberFeature">
-    <stringAttribute key="cucumber feature" value="C:/Users/LENOVO/eclipse-workspace/BDDFramework/Features/Login.feature"/>
+    <stringAttribute key="cucumber feature" value="D:\Workspace\eclipse-workspace\DineshCucumberFramework\FeatureFile\Login.feature"/>
     <stringAttribute key="glue path" value="classpath:"/>
     <booleanAttribute key="is html formatter?" value="false"/>
     <booleanAttribute key="is json formatter?" value="false"/>
@@ -11,7 +11,7 @@
     <booleanAttribute key="is rerun formatter" value="false"/>
     <booleanAttribute key="is usage formatter" value="false"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/BDDFramework"/>
+        <listEntry value="/DineshCucumberFramework"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="4"/>
@@ -19,6 +19,6 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="BDDFramework"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DineshCucumberFramework"/>
     <booleanAttribute key="pde.generated.config" value="true"/>
 </launchConfiguration>
